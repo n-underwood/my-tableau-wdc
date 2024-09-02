@@ -68,3 +68,5 @@ function fetchData() {
     var symbol = document.getElementById("symbol").value.trim();
     tableau.connectionData = symbol;
     tableau.connectionName = "Yahoo Finance Data for " + symbol;
+    tableau.submit();
+}
